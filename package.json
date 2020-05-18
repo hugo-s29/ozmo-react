@@ -18,8 +18,7 @@
     "build:main": "tsc -p tsconfig.json",
     "build:module": "tsc -p tsconfig.module.json",
     "format": "prettier \"src/**/*.ts\" --write",
-    "prepublish": "npm run build",
-    "postinstall": "echo This project is still in beta, it might not work as expected everywhere\nFeel free to contribute"
+    "prepublish": "npm run build"
   },
   "dependencies": {
     "ozmo-compile": "^0.0.1"
